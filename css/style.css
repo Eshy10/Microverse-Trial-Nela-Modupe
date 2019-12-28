@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: rgb(68, 109, 68)
+}
+
+#survey-form {
+    background-color: gray;
+    width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#name, #email, #number {
+    width: 450px;
+    height: 20px;
+}
+
+#name-label, #email-label, #number-label {
+margin-right: 410px;
+}
+
+.information {
+  margin-right: 70px;  
+}
+
+.course {
+    margin-right: 70px;
+}
+
+.row-cb {
+    margin: auto;
+    display: block;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: 250px;
+
+ }
+.row-cb label {
+     position: absolute;
+     height: 0;
+     width: 0;
+     margin-right: 150px;
+}
+
+
+#submit {
+    width: 350px;
+    background-color: green;
+    color: #000;
+}
